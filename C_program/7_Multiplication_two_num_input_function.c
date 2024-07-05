@@ -1,3 +1,4 @@
+//7. Write a C program for Multiplication of two number using input function.//
 #include <stdio.h>
 int main()
 {
