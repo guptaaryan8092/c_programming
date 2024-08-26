@@ -1,12 +1,15 @@
+
+// 19. Write a C program for swapping of two number without using third variable.
+
 #include <stdio.h>
 int main()
 {
-int a,b,c;
+int a,b;
 printf("Enter the two numbers \n");
 scanf("%d\n%d",&a,&b);
-c=a;
-a=b;
-b=c;
+a=a-b;
+b=a+b;
+a=b-a;
 printf("numbers after swaping %d and %d",a,b);
 return 0;
 }
